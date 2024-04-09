@@ -6,7 +6,7 @@ const Describes = ({title, subTitle, list, route}) => {
   const [select, setSelect] = useState('');
 
   return (
-    <div className='items-center h-screen w-full py-[50px] px-4 flex flex-col space-y-6'>
+    <div className='items-center h-[80vh] w-full py-[50px] px-4 flex flex-col space-y-6'>
       <h1 className='font-bold text-3xl text-center'>{title}</h1>
       <h3 className='text-gray-600 text-sm'>{subTitle}</h3>
       <div className='w-full items-center flex flex-col space-y-2 py-4'>
